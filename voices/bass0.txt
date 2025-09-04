@@ -1,0 +1,19 @@
+ boc.olson.b0.jbl/
+
+bass
+key (5
+units 32
+
+1 6lt1/
+2 6lt2 7l,/
+3 4lt1/
+4 copy 3 3
+5 copy 1 4
+9 copy 1 8
+17 copy 1 16
+33 rest 4
+37 8lt1/
+38 8lt2 9l,/
+39 7)lt1/
+40 copy 39 39
+end

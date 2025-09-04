@@ -1,0 +1,43 @@
+boc olson jbl 2024-12-26/
+
+1  rt1
+2  rt1
+3  rt1
+4  rt1
+5  rt1
+6  rt1
+7  rt1
+8  rt2 rt4 D#5t8 F#5t8
+9  F#5t2 F#5t8 F#5t16 F#5t32 C#5t32 D#5t8 C#5t8
+10 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+11 G#4t1
+12 G#4t2 G#4t8 G#4t16 G#4t32 G#4t64 C#5t64 D#5t8 C#5t8
+13 C#5t2 C#5t8 C#5t16 C#5t32 C#5t32 D#5t8 C#5t8
+14 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+15 G#4t1
+16 G#4t2 G#4t4 D#5t8 F#5t8
+17 F#5t2 F#5t8 F#5t16 F#5t32 C#5t32 D#5t8 C#5t8
+18 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+19 G#4t1
+20 G#4t2 G#4t8 G#4t16 G#4t32 G#4t64 C#5t64 D#5t8 C#5t8
+21 C#5t2 C#5t8 C#5t16 C#5t32 C#5t32 D#5t8 C#5t8
+22 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+23 G#4t1
+24 G#4t2 G#4t4 D#5t8 F#5t8
+25 F#5t2 F#5t8 F#5t16 F#5t32 C#5t32 D#5t8 C#5t8
+26 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+27 G#4t1
+28 G#4t2 G#4t8 G#4t16 G#4t32 G#4t64 C#5t64 D#5t8 C#5t8
+29 C#5t2 C#5t8 C#5t16 C#5t32 C#5t32 D#5t8 C#5t8
+30 C#5t2 C#5t8 C#5t16 C#5t32 G#4t32 A#4t8 G#4t8
+31 G#4t1
+32 G#4t1
+33 G#4t1
+34 G#4t2 A#4t2
+35 F4t1
+36 F4t1
+37 G#4t1
+38 G#4t2 A#4t2
+39 F4t1
+40 F4t1
+41 rt1

@@ -1,0 +1,25 @@
+ boc.olson.m.jbl/
+
+tempo 99  CHM PDP1 CPU RUNS SIX PERCENT SLOW SO WE ACCOUNT FOR THAT HERE
+treble
+key (5
+units 32
+
+1 rest 7
+8 rt2 rt4 7lt8 9l,/
+9 9lt2 9lt8 9lt16 9lt32 6l, 7lt8 6l,/
+10 6lt2 6lt8 6lt16 6lt32 3l, 4lt8 3l,/
+11 3lt1/
+12 3lt2 3lt8 3lt16 3lt32 3lt64 6l, 7lt8 6l,/
+13 6lt2 6lt4 7lt8 6l,/
+14 copy 10 11
+16 3lt2 3lt4 7lt8 9l,/
+17 copy 9 16
+25 copy 9 15
+32 copy 11 11
+33 copy 11 11
+34 3lt2 4l,/
+35 2)lt1/
+36 copy 35 35
+37 copy 33 36
+end

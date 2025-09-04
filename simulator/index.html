@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BoC - Olson Playback</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #2a2834;
+        color: #c9c1f4;
+        text-align: center;
+      }
+      table {
+        margin: 2em auto;
+        border-collapse: collapse;
+      }
+      td {
+        width: 25%;
+        text-align: center;
+      }
+      button {
+        padding: 0.5em 1em;
+        font-size: 1em;
+        width: 5em;
+        background-color: #c9c1f4;
+        color: #2a2834;
+        border: none;
+        border-radius: 0.25em;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #d9d3ff;
+        color: #2a2834;
+      }
+      #time {
+        margin-top: 1em;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <table>
+        <thead>
+          <tr>
+            <th>bass</th>
+            <th>tenor</th>
+            <th>alto</th>
+            <th>treble</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="bass">r</td>
+            <td id="tenor">r</td>
+            <td id="alto">r</td>
+            <td id="treble">r</td>
+          </tr>
+      </table>
+      <button id="play">play</button>
+      <div id="time"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>

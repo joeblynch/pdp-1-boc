@@ -1,0 +1,18 @@
+ boc.olson.b2.jbl/
+
+tenor
+key (2
+units 32
+
+1 4lt1/
+2 4lt2 5l,/
+3 5lt1/
+4 copy 3 3
+5 copy 1 4
+9 copy 1 8
+17 copy 1 16
+33 7lt1/
+34 7lt2 8l,/
+35 copy 3 4
+37 copy 33 36
+end
