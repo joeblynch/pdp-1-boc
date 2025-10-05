@@ -1,4 +1,4 @@
-This originally was downlaoded from Ken Sumrall's website at: http://www.scrapheap.net/pdp1/
+This originally was downloaded from Ken Sumrall's website at: http://www.scrapheap.net/pdp1/
 
 USAGE: run `./update.sh` to perform the following:
 - merge individual voices from `../voices` into a single file
