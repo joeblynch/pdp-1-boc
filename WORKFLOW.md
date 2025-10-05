@@ -21,7 +21,7 @@ See [hc_binmaker/README.md](hc_binmaker/README.md) for more information.
 
 ## 4. Add Metadata to Tape Leader and Trailer
 
-- create a MACRO assymbly file with title text to use in the tape leader ([title/title.mac](title/title.mac))
+- create a MACRO assembly file with title text to use in the tape leader ([title/title.mac](title/title.mac))
 - use MACRO assembler to produce tape leader data (`cd title; ./run.sh;cd ..`)
 - dump leader from MACRO to bitmap image (`cd imgbin;source .venv/bin/activate;python imgbin.py ../title/title.bin title.bmp;deactivate;cd ..`)
 - manually edit and add any additional metadata to leader (any image editor supporting 1-bit BMP files to edit [imgbin/title.bmp](imgbin/title.bmp))
@@ -30,7 +30,7 @@ See [hc_binmaker/README.md](hc_binmaker/README.md) for more information.
 
 ## 5. Create the Paper Tape
 
-- shorten blank tape gaps between vocies to save paper tape: (`./tweak/tweak hc_binmaker/boc-olson.bin output/boc-olson-full.bin`)
+- shorten blank tape gaps between voices to save paper tape: (`./tweak/tweak hc_binmaker/boc-olson.bin output/boc-olson-full.bin`)
 - inject leader and trailer binary tape segments into HC intermediate tape (`python3 title/replace.py --title imgbin/title.bin --trailer imgbin/trailer.bin --tape-in output/boc-olson-full.bin --tape-out output/boc-olson.bin;rm output/boc-olson-full.bin`)
 - generate SVG of tape file for visual verification (`python3 verify/dumpsvg.py -o output/boc-olson.svg output/boc-olson.bin`)
 - punch paper tape file to physical paper tape (output/boc-olson.bin, use CoolTerm with tape punch.CoolTermSettings)
