@@ -1,5 +1,5 @@
 const CPU_SPEED_MULTIPLIER = 0.94;  // 2025-01-04 Peter Samson mentioned the CHM PDP-1 CPU is 6% slower than spec.
-const BPM = Math.floor(115 * CPU_SPEED_MULTIPLIER);  // 108 BPM is the target, 115 acounts for CPU speed discrepancy.
+const BPM = Math.floor(115 * CPU_SPEED_MULTIPLIER);  // 108 BPM is the target, 115 accounts for CPU speed discrepancy.
 const VOLUME = 0.25;
 
 class ScorePlayback {
@@ -68,9 +68,9 @@ class SquareWaveGenerator {
   phaseAccumulator = 0;
   phaseSteps = {};
 
-  constructor(sampleRate = 44100, accumaltorBits = 18) {
+  constructor(sampleRate = 44100, accumulatorBits = 18) {
     this.sampleRate = sampleRate;
-    this.accumaltorBits = accumaltorBits;
+    this.accumulatorBits = accumulatorBits;
     this.calculateBasePhaseSteps();
   }
 
@@ -79,7 +79,7 @@ class SquareWaveGenerator {
     const baseFrequency = 32.7032; // C1
     for (let i = 0; i < 12; i++) {
       const frequency = baseFrequency * Math.pow(2, i / 12);
-      const phaseStep = frequency * ((1 << this.accumaltorBits) / this.sampleRate);
+      const phaseStep = frequency * ((1 << this.accumulatorBits) / this.sampleRate);
       this.phaseSteps[NOTES[i]] = phaseStep;
     }
   }
@@ -97,7 +97,7 @@ class SquareWaveGenerator {
 
     const phaseStep = this.calculatePhaseStep(note);
     this.phaseAccumulator += phaseStep;
-    return ((this.phaseAccumulator >> (this.accumaltorBits - 1)) & 1) ? 1 : -1;
+    return ((this.phaseAccumulator >> (this.accumulatorBits - 1)) & 1) ? 1 : -1;
   }
 }
 

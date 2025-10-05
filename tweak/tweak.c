@@ -212,7 +212,7 @@ int copy_bars(FILE *fp_in, FILE *fp_out) {
 
         if (part_word_count == 1) {
             if (!gap_frames) {
-                perror("ERROR: bars part must have blank frames between preceeding notes part");
+                perror("ERROR: bars part must have blank frames between preceding notes part");
                 exit(1);
             }
 

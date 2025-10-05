@@ -5,9 +5,9 @@
 
 ## 1. Transcribe Each Voice
 
-- create "simplified Harmony Compiler" scores ([simulator/scores/](./simulator/scores))
-- verify scores with simulator (run `python3 -m http.server` from [public/](./public))
-- convert scores to Harmony Compiler DSL (voices/)
+- create "simplified Harmony Compiler" scores. ([simulator/scores/](./simulator/scores)) These follow a similar format as the original Harmony Compiler DSL, except notes are defined by name instead of number, and features like copying prior measures are not implemented.
+- verify scores with simulator (run `python3 -m http.server` from [simulator/](./simulator))
+- convert scores to Harmony Compiler DSL.([voices/](./voices/))
 
 ## 2. Use Harmony Compiler to Produce Intermediate Tape
 
@@ -17,7 +17,7 @@ See [hc_binmaker/README.md](hc_binmaker/README.md) for more information.
 
 ## 3. Verify Intermediate Tape
 
-- decode and verify intermediate tape binary file (`./verify/decodehcint ./hc_binmaker/boc-olson.bin`)
+- decode and verify the intermediate tape binary file (`./verify/decodehcint ./hc_binmaker/boc-olson.bin`)
 
 ## 4. Add Metadata to Tape Leader and Trailer
 
